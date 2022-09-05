@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#F5F5F5;
+    --secondart-color: #000000;
+    --terceira-color:#505050;
+    --quarta-color:#8A2D5E;
+    --space-default: 36px;
+
+}
+body{
+    background-color:var(--primary-color);
+    padding-top: 31px;
+    padding-right: var(--space-default);
+    padding-left: var(--space-default);
+
+}
+header{
+    display: flex;
+}
+
+.logo{
+    display: inline-flex;
+    gap: 50px;
+    color: var(--secondart-color) ;
+    align-items: center;
+    font-size: 19px;
+    margin-right: 400px;
+      
+}
+.list{
+    display: inline-flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 19px;
+    margin-right: 400px;
+      
+}
+.guia{
+    color: var(--secondart-color) ;
+}
+.icone{
+    padding-left: 500px;
+
+}
+.title{
+    color: var(--quarta-color);
+    padding-left: 45px;
+    height: 1500px;
+}
+.titulo{
+    color: var(--quarta-color);
+}
+.iron{
+    padding-left: 1000px;
+}
